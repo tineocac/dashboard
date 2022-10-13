@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body class="light=mode">
+  <!-- HEADER -->
+  <header class="header">
+    <h1 class="header__title">Social Media Dashboard</h1>
+    <p class="header__info">Total Followers: 23,004</p>
+    <hr class="header__hr">
+    <article class="darklight">
+      <h2 class="darklight__label" id="toggle-label">Dark Mode</h2>
+      <div class="toggle" id="toggle">
+        <div class="toggle__circle" id="toggle-circle"></div>
+      </div>
+    </article>
+  </header>
+
+  <!-- MAIN -->
+<main class="main">
+  <section class="principal">
+    <!-- PRINCIPAL CARD 1 -->
+    <article class="principal-card">
+      <header class="principal-card__header">
+        <img src="./images/icon-facebook.svg" alt="Logo Faceboook">
+        <h3 class="principal-card__username">@nathanf</h3>
+      </header>
+      <div class="principal-card__body">
+        <h3 class="principal-card__number">1987</h3>
+        <p class="principal-card__label">Followers</p>
+      </div>
+      <footer class="principal-card__footer">
+        <img class= "principal-card__arrow-up" src="./images/icon-up.svg" alt="arrow up">
+        <p class="principal-card__statistics up">12 Today</p>
+      </footer>
+    </article>
+    <!-- PRINCIPAL CARD 2 -->
+    <article class="principal-card">
+      <header class="principal-card__header">
+        <img src="./images/icon-twitter.svg" alt="Logo Twitter">
+        <h3 class="principal-card__username">@nathanf</h3>
+      </header>
+      <div class="principal-card__body">
+        <h3 class="principal-card__number">1044</h3>
+        <p class="principal-card__label">Followers</p>
+      </div>
+      <footer class="principal-card__footer">
+        <img class= "principal-card__arrow-up " src="./images/icon-up.svg" alt="arrow up">
+        <p class="principal-card__statistics up">99 Today</p>
+      </footer>
+    </article>
+    <!-- PRINCIPAL CARD 3 -->
+    <article class="principal-card">
+      <header class="principal-card__header">
+        <img src="./images/icon-instagram.svg" alt="Logo Instagram">
+        <h3 class="principal-card__username">@realnathanf</h3>
+      </header>
+      <div class="principal-card__body">
+        <h3 class="principal-card__number">11k</h3>
+        <p class="principal-card__label">Followers</p>
+      </div>
+      <footer class="principal-card__footer">
+        <img class= "principal-card__arrow-up " src="./images/icon-up.svg" alt="arrow up" class="principal-card__logohead">
+        <p class="principal-card__statistics up">1099 Today</p>
+      </footer>
+    </article>
+    <!-- PRINCIPAL CARD 4 -->
+    <article class="principal-card">
+      <header class="principal-card__header">
+        <img src="./images/icon-youtube.svg" alt="Logo Faceboook">
+        <h3 class="principal-card__username">Nathan F.</h3>
+      </header>
+      <div class="principal-card__body">
+        <h3 class="principal-card__number">8239</h3>
+        <p class="principal-card__label">Subscribers</p>
+      </div>
+      <footer class="principal-card__footer">
+        <img class= "principal-card__arrow-down" src="./images/icon-down.svg" alt="arrow down">
+        <p class="principal-card__statistics down">144 Today</p>
+      </footer>
+    </article>
+  </section>
+
+  <!-- OVERVIEW SECTION -->
+  <section class="overview">
+    <h2 class="overiew__title">Overview - Today</h2>
+    <div class="overview__container">
+      <!-- CARD OVERVIEW 1 -->
+      <article class="card-overview">
+        <h3 class="card-overview__title">Page Views</h2>
+        <img class="card-overview__logo" src="./images/icon-facebook.svg" alt=" Logo Facebook" >
+        <p class="card-overview__numnber">87</p>
+        <div class="card-overview__statistics">
+          <img class="card-overview__statistics-img" src="./images/icon-up.svg" alt="arrow up" >
+          <p class="card-overview__statistics-label up">3%</p>
+        </div>
+      </article>
+      <!-- CARD OVERVIEW 2 -->
+      <article class="card-overview">
+        <h3 class="card-overview__title">Likes</h2>
+        <img class="card-overview__logo" src="./images/icon-facebook.svg" alt=" Logo Facebook" >
+        <p class="card-overview__numnber">52</p>
+        <div class="card-overview__statistics">
+          <img class="card-overview__statistics-img" src="./images/icon-down.svg" alt="arrow down" >
+          <p class="card-overview__statistics-label down">2%</p>
+        </div>
+      </article>
+      <!-- CARD OVERVIEW 3 -->
+      <article class="card-overview">
+        <h3 class="card-overview__title">Likes</h2>
+        <img class="card-overview__logo" src="./images/icon-instagram.svg" alt=" Logo Instagram" >
+        <p class="card-overview__numnber">5462</p>
+        <div class="card-overview__statistics">
+          <img class="card-overview__statistics-img" src="./images/icon-up.svg" alt="arrow up" >
+          <p class="card-overview__statistics-label up">2257%</p>
+        </div>
+      </article>
+      <!-- CARD OVERVIEW 4 -->
+      <article class="card-overview">
+        <h3 class="card-overview__title">Profile Views</h2>
+        <img class="card-overview__logo" src="./images/icon-instagram.svg" alt=" Logo Instagram" >
+        <p class="card-overview__numnber">52k</p>
+        <div class="card-overview__statistics">
+          <img class="card-overview__statistics-img" src="./images/icon-up.svg" alt="arrow up" >
+          <p class="card-overview__statistics-label up">1375%</p>
+        </div>
+      </article>
+      <!-- CARD OVERVIEW 5 -->
+      <article class="card-overview">
+        <h3 class="card-overview__title">Retweets</h2>
+        <img class="card-overview__logo" src="./images/icon-twitter.svg" alt=" Logo Twitter" >
+        <p class="card-overview__numnber">117</p>
+        <div class="card-overview__statistics">
+          <img class="card-overview__statistics-img" src="./images/icon-up.svg" alt="arrow up" >
+          <p class="card-overview__statistics-label up">303%</p>
+        </div>
+      </article>
+      <!-- CARD OVERVIEW 6 -->
+      <article class="card-overview">
+        <h3 class="card-overview__title">Likes</h2>
+        <img class="card-overview__logo" src="./images/icon-twitter.svg" alt=" Logo Twitter" >
+        <p class="card-overview__numnber">507</p>
+        <div class="card-overview__statistics">
+          <img class="card-overview__statistics-img" src="./images/icon-up.svg" alt="arrow up" >
+          <p class="card-overview__statistics-label up">553%</p>
+        </div>
+      </article>
+      <!-- CARD OVERVIEW 7 -->
+      <article class="card-overview">
+        <h3 class="card-overview__title">Likes</h2>
+        <img class="card-overview__logo" src="./images/icon-youtube.svg" alt=" Logo Youtube" >
+        <p class="card-overview__numnber">107</p>
+        <div class="card-overview__statistics">
+          <img class="card-overview__statistics-img" src="./images/icon-down.svg" alt="arrow down" >
+          <p class="card-overview__statistics-label down">19%</p>
+        </div>
+      </article>
+      <!-- CARD OVERVIEW 8 -->
+      <article class="card-overview">
+        <h3 class="card-overview__title">Total Views</h2>
+        <img class="card-overview__logo" src="./images/icon-youtube.svg" alt=" Logo Youtube" >
+        <p class="card-overview__numnber">1407</p>
+        <div class="card-overview__statistics">
+          <img class="card-overview__statistics-img" src="./images/icon-down.svg" alt="arrow down" >
+          <p class="card-overview__statistics-label down">12%</p>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+</body>
+</html>
